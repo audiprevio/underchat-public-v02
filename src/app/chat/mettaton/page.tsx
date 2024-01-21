@@ -1,11 +1,8 @@
-// Page component
-"use client";
 import ChatContainer from "@/components/containers/ChatContainer";
 import Mettaton from "../../../../public/assets/mettaton.png";
 
 export default function Page() {
-  // Determine the API endpoint based on the current page or some other logic
-  const apiEndpoint = '/api/chatmettaton'; // Example endpoint for Toriel's chat
+  const apiEndpoint = '/api/chatmettaton'; 
 
   return (
     <main className="font-undertale text-white bg-black h-[100dvh]">
@@ -14,8 +11,7 @@ export default function Page() {
           characterName="METTATON"
           characterImage={Mettaton}
           apiEndpoint={apiEndpoint}
-          chatInputPlaceholder="it's mettaton!" // Pass the API endpoint as a prop
-          // Pass the API endpoint as a prop
+          chatInputPlaceholder="it's mettaton!" 
         />
       </div>
     </main>

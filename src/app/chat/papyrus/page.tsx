@@ -1,11 +1,8 @@
-// Page component
-"use client";
 import ChatContainer from "@/components/containers/ChatContainer";
 import papyrus from "../../../../public/assets/papyrus.png";
 
 export default function Page() {
-  // Determine the API endpoint based on the current page or some other logic
-  const apiEndpoint = '/api/chatpapyrus'; // Example endpoint for Toriel's chat
+  const apiEndpoint = '/api/chatpapyrus'; // Example endpoint for the Api for this chatroom
 
   return (
     <main className="font-undertale text-white bg-black h-[100dvh]">

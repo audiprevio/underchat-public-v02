@@ -129,15 +129,6 @@ function ChatMessage({
 }) {
   const isAiMessage = message.role === "assistant";
 
-  // const getTextClass = (characterName: string | undefined) => {
-  //   if (characterName?.toLowerCase() === "mettaton" || "papyrus") {
-  //     return "capitalize";
-  //   } else if (characterName?.toLowerCase() === "sans") {
-  //     return "lowercase";
-  //   } else {
-  //     return "auto";
-  //   }
-  // };
   
   return (
     <div

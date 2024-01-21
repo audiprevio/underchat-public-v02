@@ -1,11 +1,9 @@
-// Page component
-"use client";
 import ChatContainer from "@/components/containers/ChatContainer";
 import napstablook from "../../../../public/assets/napstablook.png";
 
 export default function Page() {
-  // Determine the API endpoint based on the current page or some other logic
-  const apiEndpoint = '/api/chatnapstablook'; // Example endpoint for Toriel's chat
+  const apiEndpoint = '/api/chatnapstablook'; 
+
 
   return (
     <main className="font-undertale text-white bg-black h-[100dvh]">
@@ -14,7 +12,7 @@ export default function Page() {
           characterName="napstablook"
           characterImage={napstablook}
           apiEndpoint={apiEndpoint}
-          chatInputPlaceholder="Say something to Blooky..." // Pass the API endpoint as a prop
+          chatInputPlaceholder="Say something to Blooky..." 
         />
       </div>
     </main>

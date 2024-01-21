@@ -1,11 +1,9 @@
 // Page component
-"use client";
 import ChatContainer from "@/components/containers/ChatContainer";
 import Asriel from "../../../../public/assets/asriel.png";
 
 export default function Page() {
-  // Determine the API endpoint based on the current page or some other logic
-  const apiEndpoint = '/api/chatasriel'; // Example endpoint for Toriel's chat
+  const apiEndpoint = '/api/chatasriel'; 
 
   return (
     <main className="font-undertale text-white bg-black h-[100dvh]">
@@ -14,8 +12,7 @@ export default function Page() {
           characterName="Asriel"
           characterImage={Asriel}
           apiEndpoint={apiEndpoint}
-          chatInputPlaceholder="It's Asriel Dreemurr!" // Pass the API endpoint as a prop
-          // Pass the API endpoint as a prop
+          chatInputPlaceholder="It's Asriel Dreemurr!" 
         />
       </div>
     </main>
